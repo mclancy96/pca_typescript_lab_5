@@ -26,6 +26,6 @@ class Rectangle {
   }
 
   get area(): number {
-    return this._width * this.height;
+    return Number((this._width * this.height).toFixed(2));
   }
 }
